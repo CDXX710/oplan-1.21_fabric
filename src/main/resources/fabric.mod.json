@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "oplan",
+	"version": "${version}",
+	"name": "OpLan",
+	"description": "Brings /op and /deop to LAN Worlds",
+	"authors": [
+		"CDXX"
+	],
+	"contact": {},
+	"license": "CC0-1.0",
+	"icon": "assets/oplan/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"cdxx.oplan.OpLan"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
