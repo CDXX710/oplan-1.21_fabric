@@ -3,7 +3,7 @@
 	"id": "oplan",
 	"version": "${version}",
 	"name": "OpLan",
-	"description": "Brings /op and /deop to LAN Worlds",
+	"description": "Brings /op and /deop to LAN Worlds.",
 	"authors": [
 		"CDXX"
 	],
@@ -23,6 +23,6 @@
 		"fabric-api": "*"
 	},
 	"suggests": {
-		"another-mod": "*"
+		"another-mod": "https://modrinth.com/user/CDXX"
 	}
 }
